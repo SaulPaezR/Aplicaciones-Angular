@@ -7,13 +7,14 @@ import { Country } from '../../interfaces/pais.interface';
   styles: [
   ]
 })
+
 export class PorCapitalComponent implements OnInit {
 
   termino: string = '';
   hayError: boolean = false;
   capitales: Country[] = [];
 
-  constructor(private paisService: PaisService) { }
+  constructor( private paisService: PaisService ) { }
 
   ngOnInit(): void {
   }
