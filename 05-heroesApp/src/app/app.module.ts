@@ -10,8 +10,6 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { ErrorPageComponent } from './shared/error-page/error-page.component';
 
-import { FlexLayoutModule } from '@angular/flex-layout';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,8 +19,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    AppRoutingModule,
-    FlexLayoutModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
